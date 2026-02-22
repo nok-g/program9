@@ -1,3 +1,4 @@
+purplePortal.isActive = false
 func set() {
     moveForward()
         if isOnGem {
@@ -6,7 +7,7 @@ func set() {
         if isBlocked {
             turnLeft()
             turnLeft()
-        }
+        }   
 }
 for i in 1...9 {
     set()
